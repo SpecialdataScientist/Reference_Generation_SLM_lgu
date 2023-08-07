@@ -1,5 +1,5 @@
 # Reference_Generation_SLM_lgu
-: CoT (Chain-of-Thought) 기반 응답 생성을 위해 reasoning 정보를 생성하는 과정으로 SLM (BART-base)를 이용해 검색된 passage (LGU Data 검색결과)에 대한 reference 생성 task 수행
+: 생성된 reference와 검색된 passage (LGU Data 검색결과)를 이용해 SLM (BART-base) 기반 CoT (Chain-of-thought)를 통해 응답 생성 Task 수행 
 
 ## 1. Training 
     train_file.sh 실행 
